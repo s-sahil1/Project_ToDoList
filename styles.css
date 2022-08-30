@@ -1,0 +1,127 @@
+body {
+  background-color: #53BF9D;
+  padding: 1rem 3rem;
+  box-sizing: border-box;
+  color: hsl(198, 1%, 29%);
+  font-family: 'Gochi Hand', cursive;
+  font-size: 130%;
+}
+@media only screen and (min-width: 1012px) {
+  body {
+    min-height: 100vh;
+    padding: 4rem 20%;
+  }
+}
+@media only screen and (min-width: 700px) and max(min-width: 1012x){
+  body {
+    min-height: 100vh;
+    padding: 4rem 30%;
+  }
+}
+
+section {
+  background: #FFEE63;
+  background-image: radial-gradient(#53BF9D 8.2%, transparent 0);
+  min-height: 70vh;
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: 10% 5% 10% 5%;
+  height: auto;
+}
+
+img {
+  width: 18%;
+  float: left;
+  margin-left: 25%;
+  margin-right: 0;
+  transform: rotate(-10deg);
+}
+
+.to-do-heading {
+  display: inline-block;
+  margin: 3rem auto auto 1rem;
+  transform: rotate(10deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: hsla(166, 100%, 50%, 0.7);
+  font-size: 1.5rem;
+  box-shadow: 0 5px 10px;
+}
+
+label {
+  display: block;
+}
+
+.heading {
+  height: 10rem;
+}
+
+.list {
+  text-align: center;
+}
+
+label {
+  font-family: 'Acme', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-shadow: 0 4px 3px orange;
+}
+
+ul {
+  text-align: left;
+  line-height: 2rem;
+}
+
+.input-field {
+  background: transparent;
+  border-width: 0 0 5px 0;
+  border-style: dashed;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  font-family: 'Cagliostro', sans-serif;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+button {
+  margin-left: 1rem;
+  width: 6rem;
+  height: 3rem;
+  padding: 0;
+  font-family: 'Aclonica', sans-serif;
+  opacity: 0.8;
+  background-color: hsla(166, 100%, 50%, 0.7);
+  background-position: 0 0, 10px 10px;
+  background-size: 20px 20px;
+  border-radius: 6px 30px 8px 10px;
+  box-shadow: 0 4px 4px, 0 -4px 8px;
+  border-style: none;
+  transform: rotate(0deg);
+}
+
+.reset {
+  width: 6rem;
+  height: 2rem;
+  padding: 0;
+  border-radius: 6px 1px 45px 45px;
+  box-shadow: 0 4px 4px, 0 -4px 8px;
+  font-family: 'Aclonica', sans-serif;
+  background-color: hsla(166, 100%, 50%, 0.7);
+  padding-top: 5px;
+  margin: auto;
+  margin-top:50px;
+}
+
+.reset, button:hover{
+  cursor: pointer;
+}
+
+@media query {
+
+}
