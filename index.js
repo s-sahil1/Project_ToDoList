@@ -17,7 +17,8 @@ $("button").click(function() {
 });
 
 $(".reset").click(function(){
-  $("ul").remove();
+  $("li").remove();
+  $(".input-field").val("");
 });
 
 // function spin() {
